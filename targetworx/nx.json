@@ -77,5 +77,8 @@
       "style": "scss"
     }
   },
-  "defaultProject": "targetworx"
+  "defaultProject": "targetworx",
+  "plugins": [
+    "@nx-dotnet/core"
+  ]
 }
