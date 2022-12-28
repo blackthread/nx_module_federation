@@ -6,7 +6,7 @@ import {distinctUntilChanged} from "rxjs";
 @Component({
   selector: 'targetworx-root',
   template: `
-    <div class="dashboard-nav">Admin Dashboard</div>
+    <div class="font-normal hover:font-bold">Admin Dashboard</div>
     <div *ngIf="isLoggedIn$ | async; else signIn">
       You are authenticated so you can see this content.
     </div>
